@@ -13,8 +13,8 @@ public class SorteSelection {
 				if (less(a[j], a[min])) {//进行min和i+1(j)的比较;
 					min = j;//遍历一遍
 				}
-				exch(a, i, min);//进行交换
 			}
+			exch(a, i, min);//进行交换
 		}
 	}
 	public static boolean less(Comparable a,Comparable a2) {//对元素进行比较
